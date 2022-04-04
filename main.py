@@ -1,12 +1,13 @@
 from operator import truediv
 from runpy import run_path
+import sys
 import xml.etree.ElementTree as ET
 from lista import lista
 from casilla import casilla
 from ciudad import ciudad
 from robot import robot
-
-
+from graficador import crearGrafica
+from os import startfile,system
 robotsFighters = lista()
 ciudades = lista()
 robotsRescue = lista()
@@ -28,7 +29,7 @@ def cargarArchivo(ruta):
         recursos=lista()
         unidadesMilitares = lista()
         tablero = lista()
-        for i in range(filas+1):
+        for i in range(filas):
             column = 1
             stringFila = obj[i+1].text
             row=lista()
@@ -120,6 +121,14 @@ def menu():
                 print("en la ciudad " + city.nombre)
                 print("en la casilla inicio Fila: " + str(Entrada.fila) + " columna: " + str(Entrada.columna))
                 print("en la casilla Recurso Fila: " + str(casilla.fila) + " columna: " + str(casilla.columna))
+
+                #Realizar la resolucion del laberinto
+                laberinto = city.tablero
+                #graficar
+                crearGrafica(laberinto)
+                system("dot -Tpng grafica.dot -o grafica.png")
+                startfile("grafica.png")
+
                 y = input()
                 pass
             elif robotsFighters.cant<=0:
@@ -148,6 +157,14 @@ def menu():
                 print("en la ciudad " + city.nombre)
                 print("en la casilla inicio Fila: " + str(Entrada.fila) + " columna: " + str(Entrada.columna))
                 print("en la casilla Recurso Fila: " + str(casilla.fila) + " columna: " + str(casilla.columna))
+
+                #Realizar la resolucion del laberinto
+                laberinto = city.tablero
+                #graficar
+                crearGrafica(laberinto)
+                system("dot -Tpng grafica.dot -o grafica.png")
+                startfile("grafica.png")
+
                 y = input()
                 pass
         elif x=='2':
@@ -172,6 +189,14 @@ def menu():
                 print("en la ciudad " + city.nombre)
                 print("en la casilla inicio Fila: " + str(Entrada.fila) + " columna: " + str(Entrada.columna))
                 print("en la casilla Civil Fila: " + str(casilla.fila) + " columna: " + str(casilla.columna))
+                
+                #Realizar la resolucion del laberinto
+                laberinto = city.tablero
+                #graficar
+                crearGrafica(laberinto)
+                system("dot -Tpng grafica.dot -o grafica.png")
+                startfile("grafica.png")
+
                 y = input()
                 pass
             elif robotsRescue.cant<=0:
@@ -200,6 +225,14 @@ def menu():
                 print("en la ciudad " + city.nombre)
                 print("en la casilla inicio Fila: " + str(Entrada.fila) + " columna: " + str(Entrada.columna))
                 print("en la casilla Civil Fila: " + str(casilla.fila) + " columna: " + str(casilla.columna))
+
+                #Realizar la resolucion del laberinto
+                laberinto = city.tablero
+                #graficar
+                crearGrafica(laberinto)
+                system("dot -Tpng grafica.dot -o grafica.png")
+                startfile("grafica.png")
+
                 y = input()
                 
                 pass
