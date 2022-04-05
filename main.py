@@ -312,7 +312,10 @@ def menuRobot(robots):
         print("........................................................")
         print("Seleccione un robot par al mision")
         while(i<robots.cant):
-            print(str(i) + ". " + robots.getPos(i).nombre)
+            if robots.getPos(i).tipo =='ChapinFighter':
+                print(str(i) + ". " + robots.getPos(i).nombre + " poder: " + str(robots.getPos(i).capacidad))
+            else:
+                print(str(i) + ". " + robots.getPos(i).nombre)
             i+=1
         print(str(i) + ".volver")
         print("........................................................")
@@ -375,7 +378,7 @@ print("........................................................")
 print("Ingrese la ruta del archivo")
 print("........................................................")
 ruta = input()
-cargarArchivo("Entrada0.xml")
+cargarArchivo(ruta)
 
 menu()
     
