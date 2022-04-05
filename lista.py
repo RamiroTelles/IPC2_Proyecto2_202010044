@@ -122,10 +122,11 @@ class lista:
                     aux.siguiente.anterior = aux.anterior
                     self.inicio = aux.siguiente
             self.cant-=1
-            return True
+            return aux.dato
         else:
             print("posicion no existente")
-    
+            return None
+
     def eliminarDato(self,dato):
         if self.vacio:
             print("Lista Vacia")
@@ -183,3 +184,4 @@ class lista:
             #print("Posicion no válida")
             pass
 
+    

@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from lista import lista
 from casilla import casilla
 from ciudad import ciudad
+from resolverLaberinto import resolverElLaberinto,crearCopiaTablero,colocarRecorrido
 from robot import robot
 from graficador import crearGrafica
 from os import startfile,system
@@ -60,7 +61,7 @@ def cargarArchivo(ruta):
             robotsFighters.agregar_Final(robot(nombre,tipo,capacidad))
             
         else:
-            robotsRescue.agregar_Final(robot(nombre,tipo,0))
+            robotsRescue.agregar_Final(robot(nombre,tipo,1))
             
 
 def menuCiudad():
@@ -124,8 +125,23 @@ def menu():
 
                 #Realizar la resolucion del laberinto
                 laberinto = city.tablero
+                recorrido= resolverElLaberinto(Entrada.fila-1,Entrada.columna-1,casilla.fila-1,casilla.columna-1,fighter.capacidad,city.unidadesMilitares,laberinto)
+
+                #print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
+                #for i in range(recorrido.cant):
+                #    print("moverse a x= "+ str(recorrido.getPos(i).getPos(0)) + " y= " + str(recorrido.getPos(i).getPos(1)) + " con poder= " + str(recorrido.getPos(i).getPos(2)))
+                #    print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
+                
                 #graficar
-                crearGrafica(laberinto)
+                
+                #print("----------------------------------------------")
+                #city.imprimirTablero()
+                #print("----------------------------------------------")
+                copiaLaberinto = crearCopiaTablero(laberinto)
+                copiaLaberinto = colocarRecorrido(copiaLaberinto,recorrido)
+
+
+                crearGrafica(copiaLaberinto)
                 system("dot -Tpng grafica.dot -o grafica.png")
                 startfile("grafica.png")
 
@@ -160,10 +176,26 @@ def menu():
 
                 #Realizar la resolucion del laberinto
                 laberinto = city.tablero
+                recorrido= resolverElLaberinto(Entrada.fila-1,Entrada.columna-1,casilla.fila-1,casilla.columna-1,fighter.capacidad,city.unidadesMilitares,laberinto)
+                copiaLaberinto = crearCopiaTablero(laberinto)
+
+                #print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
+                #for i in range(recorrido.cant):
+                #    print("moverse a x= "+ str(recorrido.getPos(i).getPos(0)) + " y= " + str(recorrido.getPos(i).getPos(1)) + " con poder= " + str(recorrido.getPos(i).getPos(2)))
+                #    print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
                 #graficar
-                crearGrafica(laberinto)
+                #print("----------------------------------------------")
+                #city.imprimirTablero()
+                #print("----------------------------------------------")
+                copiaLaberinto = crearCopiaTablero(laberinto)
+                copiaLaberinto = colocarRecorrido(copiaLaberinto,recorrido)
+
+
+                crearGrafica(copiaLaberinto)
                 system("dot -Tpng grafica.dot -o grafica.png")
                 startfile("grafica.png")
+
+                
 
                 y = input()
                 pass
@@ -192,10 +224,25 @@ def menu():
                 
                 #Realizar la resolucion del laberinto
                 laberinto = city.tablero
+                recorrido= resolverElLaberinto(Entrada.fila-1,Entrada.columna-1,casilla.fila-1,casilla.columna-1,rescue.capacidad,city.unidadesMilitares,laberinto)
+                
+                #print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
+                #for i in range(recorrido.cant):
+                #    print("moverse a x= "+ str(recorrido.getPos(i).getPos(0)) + " y= " + str(recorrido.getPos(i).getPos(1)) + " con poder= " + str(recorrido.getPos(i).getPos(2)))
+                #    print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
+
                 #graficar
-                crearGrafica(laberinto)
+                #print("----------------------------------------------")
+                #city.imprimirTablero()
+                #print("----------------------------------------------")
+                copiaLaberinto = crearCopiaTablero(laberinto)
+                copiaLaberinto = colocarRecorrido(copiaLaberinto,recorrido)
+
+
+                crearGrafica(copiaLaberinto)
                 system("dot -Tpng grafica.dot -o grafica.png")
                 startfile("grafica.png")
+
 
                 y = input()
                 pass
@@ -228,10 +275,25 @@ def menu():
 
                 #Realizar la resolucion del laberinto
                 laberinto = city.tablero
+                recorrido= resolverElLaberinto(Entrada.fila-1,Entrada.columna-1,casilla.fila-1,casilla.columna-1,rescue.capacidad,city.unidadesMilitares,laberinto)
+
+                #print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
+                #for i in range(recorrido.cant):
+                #    print("moverse a x= "+ str(recorrido.getPos(i).getPos(0)) + " y= " + str(recorrido.getPos(i).getPos(1)) + " con poder= " + str(recorrido.getPos(i).getPos(2)))
+                #    print("-_----------_-__+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+-++-+-++-+-+-+-+-+-++-")
+                #print("----------------------------------------------")
+                #city.imprimirTablero()
+                #print("----------------------------------------------")
                 #graficar
-                crearGrafica(laberinto)
+                copiaLaberinto = crearCopiaTablero(laberinto)
+                copiaLaberinto = colocarRecorrido(copiaLaberinto,recorrido)
+
+
+                crearGrafica(copiaLaberinto)
                 system("dot -Tpng grafica.dot -o grafica.png")
                 startfile("grafica.png")
+
+                
 
                 y = input()
                 
