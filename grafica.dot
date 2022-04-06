@@ -15,38 +15,18 @@ nodo0_6[label="", group=6, fillcolor=black]
 nodo0_7[label="", group=7, fillcolor=black]
 nodo0_8[label="", group=8, fillcolor=black]
 nodo0_9[label="", group=9, fillcolor=black]
-nodo0_10[label="", group=10, fillcolor=black]
-nodo0_11[label="", group=11, fillcolor=black]
-nodo0_12[label="", group=12, fillcolor=black]
-nodo0_13[label="", group=13, fillcolor=black]
-nodo0_14[label="", group=14, fillcolor=black]
-nodo0_15[label="", group=15, fillcolor=black]
-nodo0_16[label="", group=16, fillcolor=black]
-nodo0_17[label="", group=17, fillcolor=black]
-nodo0_18[label="", group=18, fillcolor=black]
-nodo0_19[label="", group=19, fillcolor=black]
 
 
 nodo1_0[label="", group=0, fillcolor=black]
 nodo1_1[label="", group=1, fillcolor=black]
 nodo1_2[label="", group=2, fillcolor=black]
 nodo1_3[label="", group=3, fillcolor=white]
-nodo1_4[label="", group=4, fillcolor=black]
-nodo1_5[label="", group=5, fillcolor=black]
-nodo1_6[label="", group=6, fillcolor=white]
+nodo1_4[label="", group=4, fillcolor=red]
+nodo1_5[label="", group=5, fillcolor=white]
+nodo1_6[label="", group=6, fillcolor=blue]
 nodo1_7[label="", group=7, fillcolor=white]
 nodo1_8[label="", group=8, fillcolor=white]
-nodo1_9[label="", group=9, fillcolor=yellow]
-nodo1_10[label="", group=10, fillcolor=yellow]
-nodo1_11[label="", group=11, fillcolor=yellow]
-nodo1_12[label="", group=12, fillcolor=yellow]
-nodo1_13[label="", group=13, fillcolor=yellow]
-nodo1_14[label="", group=14, fillcolor=yellow]
-nodo1_15[label="", group=15, fillcolor=yellow]
-nodo1_16[label="", group=16, fillcolor=white]
-nodo1_17[label="", group=17, fillcolor=white]
-nodo1_18[label="", group=18, fillcolor=white]
-nodo1_19[label="", group=19, fillcolor=black]
+nodo1_9[label="", group=9, fillcolor=gray]
 
 
 nodo2_0[label="", group=0, fillcolor=black]
@@ -58,17 +38,7 @@ nodo2_5[label="", group=5, fillcolor=black]
 nodo2_6[label="", group=6, fillcolor=black]
 nodo2_7[label="", group=7, fillcolor=black]
 nodo2_8[label="", group=8, fillcolor=black]
-nodo2_9[label="", group=9, fillcolor=yellow]
-nodo2_10[label="", group=10, fillcolor=black]
-nodo2_11[label="", group=11, fillcolor=black]
-nodo2_12[label="", group=12, fillcolor=black]
-nodo2_13[label="", group=13, fillcolor=black]
-nodo2_14[label="", group=14, fillcolor=black]
-nodo2_15[label="", group=15, fillcolor=yellow]
-nodo2_16[label="", group=16, fillcolor=black]
-nodo2_17[label="", group=17, fillcolor=black]
-nodo2_18[label="", group=18, fillcolor=black]
-nodo2_19[label="", group=19, fillcolor=black]
+nodo2_9[label="", group=9, fillcolor=black]
 
 
 nodo3_0[label="", group=0, fillcolor=black]
@@ -80,105 +50,55 @@ nodo3_5[label="", group=5, fillcolor=black]
 nodo3_6[label="", group=6, fillcolor=black]
 nodo3_7[label="", group=7, fillcolor=black]
 nodo3_8[label="", group=8, fillcolor=black]
-nodo3_9[label="", group=9, fillcolor=yellow]
-nodo3_10[label="", group=10, fillcolor=black]
-nodo3_11[label="", group=11, fillcolor=black]
-nodo3_12[label="", group=12, fillcolor=black]
-nodo3_13[label="", group=13, fillcolor=black]
-nodo3_14[label="", group=14, fillcolor=black]
-nodo3_15[label="", group=15, fillcolor=yellow]
-nodo3_16[label="", group=16, fillcolor=black]
-nodo3_17[label="", group=17, fillcolor=black]
-nodo3_18[label="", group=18, fillcolor=black]
-nodo3_19[label="", group=19, fillcolor=gray]
+nodo3_9[label="", group=9, fillcolor=black]
 
 
-nodo4_0[label="", group=0, fillcolor=yellow]
-nodo4_1[label="", group=1, fillcolor=yellow]
-nodo4_2[label="", group=2, fillcolor=yellow]
-nodo4_3[label="", group=3, fillcolor=yellow]
-nodo4_4[label="", group=4, fillcolor=white]
-nodo4_5[label="", group=5, fillcolor=red]
-nodo4_6[label="", group=6, fillcolor=yellow]
-nodo4_7[label="", group=7, fillcolor=yellow]
-nodo4_8[label="", group=8, fillcolor=yellow]
-nodo4_9[label="", group=9, fillcolor=yellow]
-nodo4_10[label="", group=10, fillcolor=white]
-nodo4_11[label="", group=11, fillcolor=white]
-nodo4_12[label="", group=12, fillcolor=white]
-nodo4_13[label="", group=13, fillcolor=red]
-nodo4_14[label="", group=14, fillcolor=white]
-nodo4_15[label="", group=15, fillcolor=yellow]
-nodo4_16[label="", group=16, fillcolor=white]
-nodo4_17[label="", group=17, fillcolor=white]
-nodo4_18[label="", group=18, fillcolor=red]
-nodo4_19[label="", group=19, fillcolor=red]
+nodo4_0[label="", group=0, fillcolor=black]
+nodo4_1[label="", group=1, fillcolor=black]
+nodo4_2[label="", group=2, fillcolor=black]
+nodo4_3[label="", group=3, fillcolor=white]
+nodo4_4[label="", group=4, fillcolor=red]
+nodo4_5[label="", group=5, fillcolor=white]
+nodo4_6[label="", group=6, fillcolor=white]
+nodo4_7[label="", group=7, fillcolor=white]
+nodo4_8[label="", group=8, fillcolor=blue]
+nodo4_9[label="", group=9, fillcolor=black]
 
 
-nodo5_0[label="", group=0, fillcolor=black]
-nodo5_1[label="", group=1, fillcolor=black]
-nodo5_2[label="", group=2, fillcolor=black]
-nodo5_3[label="", group=3, fillcolor=yellow]
+nodo5_0[label="", group=0, fillcolor=green]
+nodo5_1[label="", group=1, fillcolor=white]
+nodo5_2[label="", group=2, fillcolor=white]
+nodo5_3[label="", group=3, fillcolor=white]
 nodo5_4[label="", group=4, fillcolor=black]
 nodo5_5[label="", group=5, fillcolor=black]
-nodo5_6[label="", group=6, fillcolor=yellow]
+nodo5_6[label="", group=6, fillcolor=black]
 nodo5_7[label="", group=7, fillcolor=black]
 nodo5_8[label="", group=8, fillcolor=black]
-nodo5_9[label="", group=9, fillcolor=white]
-nodo5_10[label="", group=10, fillcolor=black]
-nodo5_11[label="", group=11, fillcolor=black]
-nodo5_12[label="", group=12, fillcolor=white]
-nodo5_13[label="", group=13, fillcolor=black]
-nodo5_14[label="", group=14, fillcolor=black]
-nodo5_15[label="", group=15, fillcolor=yellow]
-nodo5_16[label="", group=16, fillcolor=black]
-nodo5_17[label="", group=17, fillcolor=black]
-nodo5_18[label="", group=18, fillcolor=black]
-nodo5_19[label="", group=19, fillcolor=black]
+nodo5_9[label="", group=9, fillcolor=black]
 
 
 nodo6_0[label="", group=0, fillcolor=black]
 nodo6_1[label="", group=1, fillcolor=black]
 nodo6_2[label="", group=2, fillcolor=black]
-nodo6_3[label="", group=3, fillcolor=yellow]
+nodo6_3[label="", group=3, fillcolor=white]
 nodo6_4[label="", group=4, fillcolor=black]
 nodo6_5[label="", group=5, fillcolor=black]
-nodo6_6[label="", group=6, fillcolor=yellow]
+nodo6_6[label="", group=6, fillcolor=black]
 nodo6_7[label="", group=7, fillcolor=black]
 nodo6_8[label="", group=8, fillcolor=black]
-nodo6_9[label="", group=9, fillcolor=white]
-nodo6_10[label="", group=10, fillcolor=black]
-nodo6_11[label="", group=11, fillcolor=black]
-nodo6_12[label="", group=12, fillcolor=white]
-nodo6_13[label="", group=13, fillcolor=black]
-nodo6_14[label="", group=14, fillcolor=black]
-nodo6_15[label="", group=15, fillcolor=yellow]
-nodo6_16[label="", group=16, fillcolor=black]
-nodo6_17[label="", group=17, fillcolor=black]
-nodo6_18[label="", group=18, fillcolor=gray]
-nodo6_19[label="", group=19, fillcolor=black]
+nodo6_9[label="", group=9, fillcolor=black]
 
 
 nodo7_0[label="", group=0, fillcolor=black]
-nodo7_1[label="", group=1, fillcolor=white]
-nodo7_2[label="", group=2, fillcolor=white]
-nodo7_3[label="", group=3, fillcolor=yellow]
-nodo7_4[label="", group=4, fillcolor=yellow]
-nodo7_5[label="", group=5, fillcolor=yellow]
-nodo7_6[label="", group=6, fillcolor=yellow]
-nodo7_7[label="", group=7, fillcolor=white]
-nodo7_8[label="", group=8, fillcolor=white]
-nodo7_9[label="", group=9, fillcolor=yellow]
-nodo7_10[label="", group=10, fillcolor=yellow]
-nodo7_11[label="", group=11, fillcolor=yellow]
-nodo7_12[label="", group=12, fillcolor=yellow]
-nodo7_13[label="", group=13, fillcolor=white]
-nodo7_14[label="", group=14, fillcolor=white]
-nodo7_15[label="", group=15, fillcolor=yellow]
-nodo7_16[label="", group=16, fillcolor=white]
-nodo7_17[label="", group=17, fillcolor=white]
-nodo7_18[label="", group=18, fillcolor=white]
-nodo7_19[label="", group=19, fillcolor=black]
+nodo7_1[label="", group=1, fillcolor=black]
+nodo7_2[label="", group=2, fillcolor=black]
+nodo7_3[label="", group=3, fillcolor=white]
+nodo7_4[label="", group=4, fillcolor=black]
+nodo7_5[label="", group=5, fillcolor=black]
+nodo7_6[label="", group=6, fillcolor=black]
+nodo7_7[label="", group=7, fillcolor=black]
+nodo7_8[label="", group=8, fillcolor=black]
+nodo7_9[label="", group=9, fillcolor=blue]
 
 
 nodo8_0[label="", group=0, fillcolor=black]
@@ -187,152 +107,22 @@ nodo8_2[label="", group=2, fillcolor=black]
 nodo8_3[label="", group=3, fillcolor=white]
 nodo8_4[label="", group=4, fillcolor=black]
 nodo8_5[label="", group=5, fillcolor=black]
-nodo8_6[label="", group=6, fillcolor=white]
+nodo8_6[label="", group=6, fillcolor=black]
 nodo8_7[label="", group=7, fillcolor=black]
 nodo8_8[label="", group=8, fillcolor=black]
-nodo8_9[label="", group=9, fillcolor=yellow]
-nodo8_10[label="", group=10, fillcolor=black]
-nodo8_11[label="", group=11, fillcolor=black]
-nodo8_12[label="", group=12, fillcolor=yellow]
-nodo8_13[label="", group=13, fillcolor=black]
-nodo8_14[label="", group=14, fillcolor=black]
-nodo8_15[label="", group=15, fillcolor=yellow]
-nodo8_16[label="", group=16, fillcolor=black]
-nodo8_17[label="", group=17, fillcolor=black]
-nodo8_18[label="", group=18, fillcolor=black]
-nodo8_19[label="", group=19, fillcolor=black]
+nodo8_9[label="", group=9, fillcolor=black]
 
 
 nodo9_0[label="", group=0, fillcolor=black]
 nodo9_1[label="", group=1, fillcolor=black]
 nodo9_2[label="", group=2, fillcolor=black]
-nodo9_3[label="", group=3, fillcolor=red]
-nodo9_4[label="", group=4, fillcolor=black]
-nodo9_5[label="", group=5, fillcolor=black]
+nodo9_3[label="", group=3, fillcolor=white]
+nodo9_4[label="", group=4, fillcolor=white]
+nodo9_5[label="", group=5, fillcolor=white]
 nodo9_6[label="", group=6, fillcolor=white]
-nodo9_7[label="", group=7, fillcolor=black]
-nodo9_8[label="", group=8, fillcolor=black]
-nodo9_9[label="", group=9, fillcolor=yellow]
-nodo9_10[label="", group=10, fillcolor=black]
-nodo9_11[label="", group=11, fillcolor=black]
-nodo9_12[label="", group=12, fillcolor=yellow]
-nodo9_13[label="", group=13, fillcolor=black]
-nodo9_14[label="", group=14, fillcolor=black]
-nodo9_15[label="", group=15, fillcolor=yellow]
-nodo9_16[label="", group=16, fillcolor=black]
-nodo9_17[label="", group=17, fillcolor=black]
-nodo9_18[label="", group=18, fillcolor=black]
-nodo9_19[label="", group=19, fillcolor=black]
-
-
-nodo10_0[label="", group=0, fillcolor=black]
-nodo10_1[label="", group=1, fillcolor=black]
-nodo10_2[label="", group=2, fillcolor=black]
-nodo10_3[label="", group=3, fillcolor=yellow]
-nodo10_4[label="", group=4, fillcolor=yellow]
-nodo10_5[label="", group=5, fillcolor=yellow]
-nodo10_6[label="", group=6, fillcolor=yellow]
-nodo10_7[label="", group=7, fillcolor=white]
-nodo10_8[label="", group=8, fillcolor=white]
-nodo10_9[label="", group=9, fillcolor=yellow]
-nodo10_10[label="", group=10, fillcolor=white]
-nodo10_11[label="", group=11, fillcolor=white]
-nodo10_12[label="", group=12, fillcolor=yellow]
-nodo10_13[label="", group=13, fillcolor=red]
-nodo10_14[label="", group=14, fillcolor=white]
-nodo10_15[label="", group=15, fillcolor=yellow]
-nodo10_16[label="", group=16, fillcolor=white]
-nodo10_17[label="", group=17, fillcolor=white]
-nodo10_18[label="", group=18, fillcolor=white]
-nodo10_19[label="", group=19, fillcolor=black]
-
-
-nodo11_0[label="", group=0, fillcolor=black]
-nodo11_1[label="", group=1, fillcolor=black]
-nodo11_2[label="", group=2, fillcolor=black]
-nodo11_3[label="", group=3, fillcolor=yellow]
-nodo11_4[label="", group=4, fillcolor=black]
-nodo11_5[label="", group=5, fillcolor=black]
-nodo11_6[label="", group=6, fillcolor=yellow]
-nodo11_7[label="", group=7, fillcolor=black]
-nodo11_8[label="", group=8, fillcolor=black]
-nodo11_9[label="", group=9, fillcolor=yellow]
-nodo11_10[label="", group=10, fillcolor=black]
-nodo11_11[label="", group=11, fillcolor=black]
-nodo11_12[label="", group=12, fillcolor=yellow]
-nodo11_13[label="", group=13, fillcolor=black]
-nodo11_14[label="", group=14, fillcolor=black]
-nodo11_15[label="", group=15, fillcolor=yellow]
-nodo11_16[label="", group=16, fillcolor=black]
-nodo11_17[label="", group=17, fillcolor=black]
-nodo11_18[label="", group=18, fillcolor=black]
-nodo11_19[label="", group=19, fillcolor=black]
-
-
-nodo12_0[label="", group=0, fillcolor=black]
-nodo12_1[label="", group=1, fillcolor=gray]
-nodo12_2[label="", group=2, fillcolor=black]
-nodo12_3[label="", group=3, fillcolor=yellow]
-nodo12_4[label="", group=4, fillcolor=black]
-nodo12_5[label="", group=5, fillcolor=black]
-nodo12_6[label="", group=6, fillcolor=yellow]
-nodo12_7[label="", group=7, fillcolor=yellow]
-nodo12_8[label="", group=8, fillcolor=yellow]
-nodo12_9[label="", group=9, fillcolor=yellow]
-nodo12_10[label="", group=10, fillcolor=black]
-nodo12_11[label="", group=11, fillcolor=black]
-nodo12_12[label="", group=12, fillcolor=yellow]
-nodo12_13[label="", group=13, fillcolor=black]
-nodo12_14[label="", group=14, fillcolor=gray]
-nodo12_15[label="", group=15, fillcolor=yellow]
-nodo12_16[label="", group=16, fillcolor=black]
-nodo12_17[label="", group=17, fillcolor=black]
-nodo12_18[label="", group=18, fillcolor=black]
-nodo12_19[label="", group=19, fillcolor=black]
-
-
-nodo13_0[label="", group=0, fillcolor=black]
-nodo13_1[label="", group=1, fillcolor=yellow]
-nodo13_2[label="", group=2, fillcolor=yellow]
-nodo13_3[label="", group=3, fillcolor=yellow]
-nodo13_4[label="", group=4, fillcolor=black]
-nodo13_5[label="", group=5, fillcolor=black]
-nodo13_6[label="", group=6, fillcolor=black]
-nodo13_7[label="", group=7, fillcolor=black]
-nodo13_8[label="", group=8, fillcolor=black]
-nodo13_9[label="", group=9, fillcolor=red]
-nodo13_10[label="", group=10, fillcolor=white]
-nodo13_11[label="", group=11, fillcolor=white]
-nodo13_12[label="", group=12, fillcolor=yellow]
-nodo13_13[label="", group=13, fillcolor=yellow]
-nodo13_14[label="", group=14, fillcolor=yellow]
-nodo13_15[label="", group=15, fillcolor=yellow]
-nodo13_16[label="", group=16, fillcolor=white]
-nodo13_17[label="", group=17, fillcolor=white]
-nodo13_18[label="", group=18, fillcolor=blue]
-nodo13_19[label="", group=19, fillcolor=black]
-
-
-nodo14_0[label="", group=0, fillcolor=black]
-nodo14_1[label="", group=1, fillcolor=black]
-nodo14_2[label="", group=2, fillcolor=black]
-nodo14_3[label="", group=3, fillcolor=white]
-nodo14_4[label="", group=4, fillcolor=black]
-nodo14_5[label="", group=5, fillcolor=black]
-nodo14_6[label="", group=6, fillcolor=black]
-nodo14_7[label="", group=7, fillcolor=black]
-nodo14_8[label="", group=8, fillcolor=black]
-nodo14_9[label="", group=9, fillcolor=blue]
-nodo14_10[label="", group=10, fillcolor=black]
-nodo14_11[label="", group=11, fillcolor=black]
-nodo14_12[label="", group=12, fillcolor=black]
-nodo14_13[label="", group=13, fillcolor=black]
-nodo14_14[label="", group=14, fillcolor=black]
-nodo14_15[label="", group=15, fillcolor=white]
-nodo14_16[label="", group=16, fillcolor=black]
-nodo14_17[label="", group=17, fillcolor=black]
-nodo14_18[label="", group=18, fillcolor=black]
-nodo14_19[label="", group=19, fillcolor=black]
+nodo9_7[label="", group=7, fillcolor=white]
+nodo9_8[label="", group=8, fillcolor=white]
+nodo9_9[label="", group=9, fillcolor=gray]
 
 
 nodo0_0 -> nodo1_0
@@ -344,11 +134,6 @@ nodo5_0 -> nodo6_0
 nodo6_0 -> nodo7_0
 nodo7_0 -> nodo8_0
 nodo8_0 -> nodo9_0
-nodo9_0 -> nodo10_0
-nodo10_0 -> nodo11_0
-nodo11_0 -> nodo12_0
-nodo12_0 -> nodo13_0
-nodo13_0 -> nodo14_0
 
 
 nodo0_1 -> nodo1_1
@@ -360,11 +145,6 @@ nodo5_1 -> nodo6_1
 nodo6_1 -> nodo7_1
 nodo7_1 -> nodo8_1
 nodo8_1 -> nodo9_1
-nodo9_1 -> nodo10_1
-nodo10_1 -> nodo11_1
-nodo11_1 -> nodo12_1
-nodo12_1 -> nodo13_1
-nodo13_1 -> nodo14_1
 
 
 nodo0_2 -> nodo1_2
@@ -376,11 +156,6 @@ nodo5_2 -> nodo6_2
 nodo6_2 -> nodo7_2
 nodo7_2 -> nodo8_2
 nodo8_2 -> nodo9_2
-nodo9_2 -> nodo10_2
-nodo10_2 -> nodo11_2
-nodo11_2 -> nodo12_2
-nodo12_2 -> nodo13_2
-nodo13_2 -> nodo14_2
 
 
 nodo0_3 -> nodo1_3
@@ -392,11 +167,6 @@ nodo5_3 -> nodo6_3
 nodo6_3 -> nodo7_3
 nodo7_3 -> nodo8_3
 nodo8_3 -> nodo9_3
-nodo9_3 -> nodo10_3
-nodo10_3 -> nodo11_3
-nodo11_3 -> nodo12_3
-nodo12_3 -> nodo13_3
-nodo13_3 -> nodo14_3
 
 
 nodo0_4 -> nodo1_4
@@ -408,11 +178,6 @@ nodo5_4 -> nodo6_4
 nodo6_4 -> nodo7_4
 nodo7_4 -> nodo8_4
 nodo8_4 -> nodo9_4
-nodo9_4 -> nodo10_4
-nodo10_4 -> nodo11_4
-nodo11_4 -> nodo12_4
-nodo12_4 -> nodo13_4
-nodo13_4 -> nodo14_4
 
 
 nodo0_5 -> nodo1_5
@@ -424,11 +189,6 @@ nodo5_5 -> nodo6_5
 nodo6_5 -> nodo7_5
 nodo7_5 -> nodo8_5
 nodo8_5 -> nodo9_5
-nodo9_5 -> nodo10_5
-nodo10_5 -> nodo11_5
-nodo11_5 -> nodo12_5
-nodo12_5 -> nodo13_5
-nodo13_5 -> nodo14_5
 
 
 nodo0_6 -> nodo1_6
@@ -440,11 +200,6 @@ nodo5_6 -> nodo6_6
 nodo6_6 -> nodo7_6
 nodo7_6 -> nodo8_6
 nodo8_6 -> nodo9_6
-nodo9_6 -> nodo10_6
-nodo10_6 -> nodo11_6
-nodo11_6 -> nodo12_6
-nodo12_6 -> nodo13_6
-nodo13_6 -> nodo14_6
 
 
 nodo0_7 -> nodo1_7
@@ -456,11 +211,6 @@ nodo5_7 -> nodo6_7
 nodo6_7 -> nodo7_7
 nodo7_7 -> nodo8_7
 nodo8_7 -> nodo9_7
-nodo9_7 -> nodo10_7
-nodo10_7 -> nodo11_7
-nodo11_7 -> nodo12_7
-nodo12_7 -> nodo13_7
-nodo13_7 -> nodo14_7
 
 
 nodo0_8 -> nodo1_8
@@ -472,11 +222,6 @@ nodo5_8 -> nodo6_8
 nodo6_8 -> nodo7_8
 nodo7_8 -> nodo8_8
 nodo8_8 -> nodo9_8
-nodo9_8 -> nodo10_8
-nodo10_8 -> nodo11_8
-nodo11_8 -> nodo12_8
-nodo12_8 -> nodo13_8
-nodo13_8 -> nodo14_8
 
 
 nodo0_9 -> nodo1_9
@@ -488,202 +233,27 @@ nodo5_9 -> nodo6_9
 nodo6_9 -> nodo7_9
 nodo7_9 -> nodo8_9
 nodo8_9 -> nodo9_9
-nodo9_9 -> nodo10_9
-nodo10_9 -> nodo11_9
-nodo11_9 -> nodo12_9
-nodo12_9 -> nodo13_9
-nodo13_9 -> nodo14_9
 
 
-nodo0_10 -> nodo1_10
-nodo1_10 -> nodo2_10
-nodo2_10 -> nodo3_10
-nodo3_10 -> nodo4_10
-nodo4_10 -> nodo5_10
-nodo5_10 -> nodo6_10
-nodo6_10 -> nodo7_10
-nodo7_10 -> nodo8_10
-nodo8_10 -> nodo9_10
-nodo9_10 -> nodo10_10
-nodo10_10 -> nodo11_10
-nodo11_10 -> nodo12_10
-nodo12_10 -> nodo13_10
-nodo13_10 -> nodo14_10
+{rank=same;  nodo0_0 , nodo0_1 , nodo0_2 , nodo0_3 , nodo0_4 , nodo0_5 , nodo0_6 , nodo0_7 , nodo0_8 , nodo0_9 }
 
+{rank=same;  nodo1_0 , nodo1_1 , nodo1_2 , nodo1_3 , nodo1_4 , nodo1_5 , nodo1_6 , nodo1_7 , nodo1_8 , nodo1_9 }
 
-nodo0_11 -> nodo1_11
-nodo1_11 -> nodo2_11
-nodo2_11 -> nodo3_11
-nodo3_11 -> nodo4_11
-nodo4_11 -> nodo5_11
-nodo5_11 -> nodo6_11
-nodo6_11 -> nodo7_11
-nodo7_11 -> nodo8_11
-nodo8_11 -> nodo9_11
-nodo9_11 -> nodo10_11
-nodo10_11 -> nodo11_11
-nodo11_11 -> nodo12_11
-nodo12_11 -> nodo13_11
-nodo13_11 -> nodo14_11
+{rank=same;  nodo2_0 , nodo2_1 , nodo2_2 , nodo2_3 , nodo2_4 , nodo2_5 , nodo2_6 , nodo2_7 , nodo2_8 , nodo2_9 }
 
+{rank=same;  nodo3_0 , nodo3_1 , nodo3_2 , nodo3_3 , nodo3_4 , nodo3_5 , nodo3_6 , nodo3_7 , nodo3_8 , nodo3_9 }
 
-nodo0_12 -> nodo1_12
-nodo1_12 -> nodo2_12
-nodo2_12 -> nodo3_12
-nodo3_12 -> nodo4_12
-nodo4_12 -> nodo5_12
-nodo5_12 -> nodo6_12
-nodo6_12 -> nodo7_12
-nodo7_12 -> nodo8_12
-nodo8_12 -> nodo9_12
-nodo9_12 -> nodo10_12
-nodo10_12 -> nodo11_12
-nodo11_12 -> nodo12_12
-nodo12_12 -> nodo13_12
-nodo13_12 -> nodo14_12
+{rank=same;  nodo4_0 , nodo4_1 , nodo4_2 , nodo4_3 , nodo4_4 , nodo4_5 , nodo4_6 , nodo4_7 , nodo4_8 , nodo4_9 }
 
+{rank=same;  nodo5_0 , nodo5_1 , nodo5_2 , nodo5_3 , nodo5_4 , nodo5_5 , nodo5_6 , nodo5_7 , nodo5_8 , nodo5_9 }
 
-nodo0_13 -> nodo1_13
-nodo1_13 -> nodo2_13
-nodo2_13 -> nodo3_13
-nodo3_13 -> nodo4_13
-nodo4_13 -> nodo5_13
-nodo5_13 -> nodo6_13
-nodo6_13 -> nodo7_13
-nodo7_13 -> nodo8_13
-nodo8_13 -> nodo9_13
-nodo9_13 -> nodo10_13
-nodo10_13 -> nodo11_13
-nodo11_13 -> nodo12_13
-nodo12_13 -> nodo13_13
-nodo13_13 -> nodo14_13
+{rank=same;  nodo6_0 , nodo6_1 , nodo6_2 , nodo6_3 , nodo6_4 , nodo6_5 , nodo6_6 , nodo6_7 , nodo6_8 , nodo6_9 }
 
+{rank=same;  nodo7_0 , nodo7_1 , nodo7_2 , nodo7_3 , nodo7_4 , nodo7_5 , nodo7_6 , nodo7_7 , nodo7_8 , nodo7_9 }
 
-nodo0_14 -> nodo1_14
-nodo1_14 -> nodo2_14
-nodo2_14 -> nodo3_14
-nodo3_14 -> nodo4_14
-nodo4_14 -> nodo5_14
-nodo5_14 -> nodo6_14
-nodo6_14 -> nodo7_14
-nodo7_14 -> nodo8_14
-nodo8_14 -> nodo9_14
-nodo9_14 -> nodo10_14
-nodo10_14 -> nodo11_14
-nodo11_14 -> nodo12_14
-nodo12_14 -> nodo13_14
-nodo13_14 -> nodo14_14
+{rank=same;  nodo8_0 , nodo8_1 , nodo8_2 , nodo8_3 , nodo8_4 , nodo8_5 , nodo8_6 , nodo8_7 , nodo8_8 , nodo8_9 }
 
-
-nodo0_15 -> nodo1_15
-nodo1_15 -> nodo2_15
-nodo2_15 -> nodo3_15
-nodo3_15 -> nodo4_15
-nodo4_15 -> nodo5_15
-nodo5_15 -> nodo6_15
-nodo6_15 -> nodo7_15
-nodo7_15 -> nodo8_15
-nodo8_15 -> nodo9_15
-nodo9_15 -> nodo10_15
-nodo10_15 -> nodo11_15
-nodo11_15 -> nodo12_15
-nodo12_15 -> nodo13_15
-nodo13_15 -> nodo14_15
-
-
-nodo0_16 -> nodo1_16
-nodo1_16 -> nodo2_16
-nodo2_16 -> nodo3_16
-nodo3_16 -> nodo4_16
-nodo4_16 -> nodo5_16
-nodo5_16 -> nodo6_16
-nodo6_16 -> nodo7_16
-nodo7_16 -> nodo8_16
-nodo8_16 -> nodo9_16
-nodo9_16 -> nodo10_16
-nodo10_16 -> nodo11_16
-nodo11_16 -> nodo12_16
-nodo12_16 -> nodo13_16
-nodo13_16 -> nodo14_16
-
-
-nodo0_17 -> nodo1_17
-nodo1_17 -> nodo2_17
-nodo2_17 -> nodo3_17
-nodo3_17 -> nodo4_17
-nodo4_17 -> nodo5_17
-nodo5_17 -> nodo6_17
-nodo6_17 -> nodo7_17
-nodo7_17 -> nodo8_17
-nodo8_17 -> nodo9_17
-nodo9_17 -> nodo10_17
-nodo10_17 -> nodo11_17
-nodo11_17 -> nodo12_17
-nodo12_17 -> nodo13_17
-nodo13_17 -> nodo14_17
-
-
-nodo0_18 -> nodo1_18
-nodo1_18 -> nodo2_18
-nodo2_18 -> nodo3_18
-nodo3_18 -> nodo4_18
-nodo4_18 -> nodo5_18
-nodo5_18 -> nodo6_18
-nodo6_18 -> nodo7_18
-nodo7_18 -> nodo8_18
-nodo8_18 -> nodo9_18
-nodo9_18 -> nodo10_18
-nodo10_18 -> nodo11_18
-nodo11_18 -> nodo12_18
-nodo12_18 -> nodo13_18
-nodo13_18 -> nodo14_18
-
-
-nodo0_19 -> nodo1_19
-nodo1_19 -> nodo2_19
-nodo2_19 -> nodo3_19
-nodo3_19 -> nodo4_19
-nodo4_19 -> nodo5_19
-nodo5_19 -> nodo6_19
-nodo6_19 -> nodo7_19
-nodo7_19 -> nodo8_19
-nodo8_19 -> nodo9_19
-nodo9_19 -> nodo10_19
-nodo10_19 -> nodo11_19
-nodo11_19 -> nodo12_19
-nodo12_19 -> nodo13_19
-nodo13_19 -> nodo14_19
-
-
-{rank=same;  nodo0_0 , nodo0_1 , nodo0_2 , nodo0_3 , nodo0_4 , nodo0_5 , nodo0_6 , nodo0_7 , nodo0_8 , nodo0_9 , nodo0_10 , nodo0_11 , nodo0_12 , nodo0_13 , nodo0_14 , nodo0_15 , nodo0_16 , nodo0_17 , nodo0_18 , nodo0_19 }
-
-{rank=same;  nodo1_0 , nodo1_1 , nodo1_2 , nodo1_3 , nodo1_4 , nodo1_5 , nodo1_6 , nodo1_7 , nodo1_8 , nodo1_9 , nodo1_10 , nodo1_11 , nodo1_12 , nodo1_13 , nodo1_14 , nodo1_15 , nodo1_16 , nodo1_17 , nodo1_18 , nodo1_19 }
-
-{rank=same;  nodo2_0 , nodo2_1 , nodo2_2 , nodo2_3 , nodo2_4 , nodo2_5 , nodo2_6 , nodo2_7 , nodo2_8 , nodo2_9 , nodo2_10 , nodo2_11 , nodo2_12 , nodo2_13 , nodo2_14 , nodo2_15 , nodo2_16 , nodo2_17 , nodo2_18 , nodo2_19 }
-
-{rank=same;  nodo3_0 , nodo3_1 , nodo3_2 , nodo3_3 , nodo3_4 , nodo3_5 , nodo3_6 , nodo3_7 , nodo3_8 , nodo3_9 , nodo3_10 , nodo3_11 , nodo3_12 , nodo3_13 , nodo3_14 , nodo3_15 , nodo3_16 , nodo3_17 , nodo3_18 , nodo3_19 }
-
-{rank=same;  nodo4_0 , nodo4_1 , nodo4_2 , nodo4_3 , nodo4_4 , nodo4_5 , nodo4_6 , nodo4_7 , nodo4_8 , nodo4_9 , nodo4_10 , nodo4_11 , nodo4_12 , nodo4_13 , nodo4_14 , nodo4_15 , nodo4_16 , nodo4_17 , nodo4_18 , nodo4_19 }
-
-{rank=same;  nodo5_0 , nodo5_1 , nodo5_2 , nodo5_3 , nodo5_4 , nodo5_5 , nodo5_6 , nodo5_7 , nodo5_8 , nodo5_9 , nodo5_10 , nodo5_11 , nodo5_12 , nodo5_13 , nodo5_14 , nodo5_15 , nodo5_16 , nodo5_17 , nodo5_18 , nodo5_19 }
-
-{rank=same;  nodo6_0 , nodo6_1 , nodo6_2 , nodo6_3 , nodo6_4 , nodo6_5 , nodo6_6 , nodo6_7 , nodo6_8 , nodo6_9 , nodo6_10 , nodo6_11 , nodo6_12 , nodo6_13 , nodo6_14 , nodo6_15 , nodo6_16 , nodo6_17 , nodo6_18 , nodo6_19 }
-
-{rank=same;  nodo7_0 , nodo7_1 , nodo7_2 , nodo7_3 , nodo7_4 , nodo7_5 , nodo7_6 , nodo7_7 , nodo7_8 , nodo7_9 , nodo7_10 , nodo7_11 , nodo7_12 , nodo7_13 , nodo7_14 , nodo7_15 , nodo7_16 , nodo7_17 , nodo7_18 , nodo7_19 }
-
-{rank=same;  nodo8_0 , nodo8_1 , nodo8_2 , nodo8_3 , nodo8_4 , nodo8_5 , nodo8_6 , nodo8_7 , nodo8_8 , nodo8_9 , nodo8_10 , nodo8_11 , nodo8_12 , nodo8_13 , nodo8_14 , nodo8_15 , nodo8_16 , nodo8_17 , nodo8_18 , nodo8_19 }
-
-{rank=same;  nodo9_0 , nodo9_1 , nodo9_2 , nodo9_3 , nodo9_4 , nodo9_5 , nodo9_6 , nodo9_7 , nodo9_8 , nodo9_9 , nodo9_10 , nodo9_11 , nodo9_12 , nodo9_13 , nodo9_14 , nodo9_15 , nodo9_16 , nodo9_17 , nodo9_18 , nodo9_19 }
-
-{rank=same;  nodo10_0 , nodo10_1 , nodo10_2 , nodo10_3 , nodo10_4 , nodo10_5 , nodo10_6 , nodo10_7 , nodo10_8 , nodo10_9 , nodo10_10 , nodo10_11 , nodo10_12 , nodo10_13 , nodo10_14 , nodo10_15 , nodo10_16 , nodo10_17 , nodo10_18 , nodo10_19 }
-
-{rank=same;  nodo11_0 , nodo11_1 , nodo11_2 , nodo11_3 , nodo11_4 , nodo11_5 , nodo11_6 , nodo11_7 , nodo11_8 , nodo11_9 , nodo11_10 , nodo11_11 , nodo11_12 , nodo11_13 , nodo11_14 , nodo11_15 , nodo11_16 , nodo11_17 , nodo11_18 , nodo11_19 }
-
-{rank=same;  nodo12_0 , nodo12_1 , nodo12_2 , nodo12_3 , nodo12_4 , nodo12_5 , nodo12_6 , nodo12_7 , nodo12_8 , nodo12_9 , nodo12_10 , nodo12_11 , nodo12_12 , nodo12_13 , nodo12_14 , nodo12_15 , nodo12_16 , nodo12_17 , nodo12_18 , nodo12_19 }
-
-{rank=same;  nodo13_0 , nodo13_1 , nodo13_2 , nodo13_3 , nodo13_4 , nodo13_5 , nodo13_6 , nodo13_7 , nodo13_8 , nodo13_9 , nodo13_10 , nodo13_11 , nodo13_12 , nodo13_13 , nodo13_14 , nodo13_15 , nodo13_16 , nodo13_17 , nodo13_18 , nodo13_19 }
-
-{rank=same;  nodo14_0 , nodo14_1 , nodo14_2 , nodo14_3 , nodo14_4 , nodo14_5 , nodo14_6 , nodo14_7 , nodo14_8 , nodo14_9 , nodo14_10 , nodo14_11 , nodo14_12 , nodo14_13 , nodo14_14 , nodo14_15 , nodo14_16 , nodo14_17 , nodo14_18 , nodo14_19 }
+{rank=same;  nodo9_0 , nodo9_1 , nodo9_2 , nodo9_3 , nodo9_4 , nodo9_5 , nodo9_6 , nodo9_7 , nodo9_8 , nodo9_9 }
 
 
     }
